@@ -1,0 +1,167 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+  width: 50vw;
+  margin: auto;
+  border-collapse: collapse;
+  border: 1px solid #dddddd;
+  position: relative;
+}
+
+h1 {
+  text-align: center;
+}
+
+caption {
+  font-size: 0.6em;
+  padding: 8px;
+  text-align: right;
+}
+
+.linhaSeparacao {
+  border-top-width: 2px;
+  border-top-color: #cccccc;
+}
+
+.semLinhaSeparacao {
+  border-top-width: 2px;
+  border-top-color: white;
+}
+
+td {
+  padding: 8px;
+  text-align: center;
+}
+
+tr {
+  border: 1px solid #dddddd;
+}
+
+thead > tr > th {
+  font-size: 13px;
+  color: #999999;
+  font-weight: bold;
+  text-align: center;
+  background-color: white;
+}
+
+tbody > tr > td:nth-child(3) {
+  font-size: 14px;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+
+tbody > tr > td:nth-child(n + 4):nth-child(-n + 11) {
+  font-size: 14px;
+  color: #666666;
+  text-align: center;
+}
+
+tbody > tr > td:nth-child(n + 3):nth-child(-n + 10) {
+  width: 7%;
+}
+
+col.colunaP,
+col.colunaV,
+col.colunaD,
+col.colunaGC,
+col.colunaPorcento {
+  background-color: #f7f7f7;
+}
+
+tbody > tr > td:nth-child(1) {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+tbody > tr > td:nth-child(2) {
+  font-size: 14px;
+  color: #666666;
+  font-weight: bold;
+  text-align: left;
+}
+
+.posicaoClassificacao .corAzulMarinho {
+  color: #003366;
+}
+
+.posicaoClassificacao .corAzulCeleste {
+  color: #1398be;
+}
+
+.posicaoClassificacao .corLaranja {
+  color: #de9800;
+}
+
+.posicaoClassificacao .corCinza {
+  color: #cccccc;
+}
+
+.posicaoClassificacao .corVermelho {
+  color: #c91b04;
+}
+
+div#tabelaResponsiva {
+  width: 100vw;
+  overflow: auto;
+}
+
+.areaLegendasClassificacao {
+  font-size: 10px;
+  color: #8f8f8f;
+  text-align: left;
+}
+
+div#quadradoAzulMarinho {
+  background: #003366;
+  width: 10px;
+  height: 10px;
+  float: left;
+  margin-right: 3px;
+}
+
+div#quadradoAzulCeleste {
+  background: #1398be;
+  width: 10px;
+  height: 10px;
+  float: left;
+  margin-right: 3px;
+}
+
+div#quadradoLaranja {
+  background: #de9800;
+  width: 10px;
+  height: 10px;
+  float: left;
+  margin-right: 3px;
+}
+
+div#quadradoVermelho {
+  background: #c91b04;
+  width: 10px;
+  height: 10px;
+  float: left;
+  margin-right: 3px;
+}
+
+.areaLegendasSignificados {
+  font-size: 10px;
+  color: #555555;
+  text-align: left;
+}
+
+.areaLegendasSignificados .areaLegendasSiglas {
+  font-weight: bold;
+}
+ul {
+  list-style-type: none;
+  padding: 0px;
+}
+li {
+  float: left;
+  margin-right: 5px;
+}
